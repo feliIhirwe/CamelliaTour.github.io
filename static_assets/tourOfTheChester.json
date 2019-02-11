@@ -1,0 +1,221 @@
+{
+   "nav_icon": "chester_icon.png",
+   "pic":"info_icon.png",
+   "firstPhotoId":"7",
+   "firstPhotoRotation":150,
+   "soundEffects": {
+      "navButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         },
+         "onClick": {
+            "uri": "menu-click.wav",
+            "attributionUri": "https://www.freesound.org/people/fins/sounds/146721/"
+         }
+      },
+      "infoButton": {
+         "onEnter": {
+            "uri": "switch-flip.wav",
+            "attributionUri": "https://www.freesound.org/people/ianstargem/sounds/278205/"
+         }
+      },
+      "ambient": {
+         "uri": "irembo.mp3",
+         "attributionUri": "https://www.freesound.org/people/PapercutterJohn/sounds/322031/",
+         "loop": true,
+         "volume": 0.50
+      }
+   },
+   "photos":{
+      "1":{
+         "rotationOffset": 220,
+         "rotatex":200,
+         "rotatez":210,
+         "uri":"1.jpg",
+         "tooltips":[
+
+            {
+               "type": "image",
+               "rotationY": 200,
+               "width": 1.520,
+               "height": 1.388,
+               "translateY":200,
+               "translateX":-1100,
+               "source": "CAM.jpg",
+               "attribution": "Photo by Irembo"
+            },
+
+
+            {
+               "type": "video",
+               "rotationY": 175,
+               "translateY":100,
+               "translateX": 200,
+               "width": 2.560,
+               "height": 1.240,
+               "source":"CaffeCamellia.mp4",
+               "muted":false
+            },
+            {
+               
+               "rotationY": -5,
+               "translateY":-200,
+               "linkedPhotoId":"2"
+            },
+            {
+               "type": "panelimage",
+               "translateY":100,
+               "translateX":-200,
+               "rotationY": -117,
+               "width": 2.280,
+               "height": 2.380,
+               "source": "camellia.gif",
+               "text": "Cafe Camellia is a high end coffee shop that specializes in Breakfast, Coffee, Tea, pastries, Juices, Fruits and other delicious foods. We are currently located at M Peace Plaza (Makuza Building, Kigali Rwanda), Chic building, UTC building, Camellia Kisimenti and Camellia T.House in Car Free Zone area. ",
+               "attribution": "Photo by Camellia" 
+            }
+
+      ]
+   },
+      "2":{
+         "rotationOffset": 120,
+         "rotatez":25,
+         "rotatex":30,
+         "uri":"2.jpg",
+         "tooltips":[
+            {
+               "text":"Back!",
+               "rotationY": 80.929,
+               "translateY":-320,
+               "linkedPhotoId":"1"
+            },
+            {
+               "text":"Right!",
+               "rotationY": 170.929,
+               "translateY":-320,
+               "linkedPhotoId":"3"
+            },
+            {
+               "translateY":-300,
+               "rotationY": -100.844,
+               "linkedPhotoId":"5"
+            },
+            {
+               "text":"Left!",
+               "rotationY": -0.929,
+               "translateY":-320,
+               "linkedPhotoId":"4"  
+          
+        
+    
+    
+            }
+         ]
+      },
+      
+      "3":{
+         "rotationOffset": 100,
+         "rotatez":35,
+         "rotatex":30,
+         "uri":"3.jpg",
+         "tooltips":[
+            {
+               "text":"Right!",
+               "rotationY": -172.929,
+               "translateY":-320,
+               "linkedPhotoId":"3"
+            },
+            {
+               "text":"Back!",
+               "translateY":-320,
+               "rotationY": -50.844,
+               "linkedPhotoId":"2"
+            }
+         ]
+      },
+     
+      "4":{
+         "rotationOffset": 180,
+         "rotatez":35,
+         "rotatex":30,
+         "uri":"4.jpg",
+         "tooltips":[
+            {
+               "text":"Back!",
+               "translateY":-320,
+               "rotationY": -150.844,
+               "linkedPhotoId":"2"
+            }
+         ]
+      
+      },
+      "5":{
+         "rotationOffset": 125,
+         "rotatez":30,
+         "rotatex":30,
+         "uri":"5.jpg",
+         "tooltips":[
+            {
+               "text":"Back!",
+               "rotationY": 90.929,
+               "translateY":-320,
+               "linkedPhotoId":"2"
+            },
+            {
+               "text":"Right!",
+               "rotationY": -172.929,
+               "translateY":-320,
+               "linkedPhotoId":"7"
+            },
+            {
+               "translateY":-320,
+               "rotationY": -85.844,
+               "linkedPhotoId":"5"
+            },
+            {
+               "text":"Left!",
+               "rotationY": -0.929,
+               "translateY":-320,
+               "linkedPhotoId":"6"
+            }
+            
+         ]
+      },
+      "6":{
+         "rotationOffset": -140,
+         "rotatez":30,
+         "rotatex":30,
+         "uri":"6.jpg",
+         "tooltips":[
+
+            {
+               "text":"Back!",
+               "rotationY": 80.929,
+               "translateY":-320,
+               "linkedPhotoId":"5"
+            }
+         ]
+      },
+      "7":{
+         "rotationOffset": -60,
+         "rotatez":30,
+         "rotatex":30,
+         "uri":"7.jpg",
+         "tooltips":[
+            {
+               "text":"Back!",
+               "rotationY": 110.929,
+               "translateY":-320,
+               "linkedPhotoId":"5"
+            },
+            {
+               "text":"go!",
+               "rotationY": -10.929,
+               "translateY":-320,
+               "linkedPhotoId":"5"
+            }
+        
+         ]
+      }
+   }
+}
